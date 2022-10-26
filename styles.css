@@ -1,0 +1,128 @@
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./vendor/fonts/Inter-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./vendor/fonts/Inter-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./vendor/fonts/Inter-Black.woff2") format("woff2");
+}
+
+.page{
+  background-color: #2A2C2F;
+  color: #FFFFFF;
+  max-width: 1280px;
+  min-width: 320px;
+  margin: 0 auto;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+.header__logo{
+  max-width: 270px;
+  max-height: 70px;
+  margin: auto;
+  display: block;
+  padding-top: 34px;
+  padding-bottom: 91px;
+}
+
+.lead{
+  color: #ffffff;
+  font-family: "Inter", serif;
+  padding-bottom: 92px;
+  width: 100%;
+  max-width: 984px;
+  max-height: 983px;
+  margin: auto;
+}
+
+.lead__title{
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 1.04;
+  text-align: center;
+  color: #fff;
+  margin: auto;
+  max-width: 793px;
+}
+.lead__subtitle{
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #fff;
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 64px;
+  margin: auto;
+  max-width: 720px;
+}
+.lead__image{
+  width: 100%;
+  height: auto;
+  -webkit-filter: grayscale(1); /* Webkit */
+  filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* W3C */
+}
+.intro{
+  font-family: "Inter", serif;
+  color: #fff;
+  max-width: 1017px;
+  margin: auto;
+  padding-bottom: 92px;
+}
+.intro__title{
+  max-width: 1017px;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 1.07;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.intro__quote{
+  max-width: 720px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.42;
+  position: relative;
+}
+.intro__quote-author{
+  position: absolute;
+  bottom: -25px;
+  right: 0;
+}
+.intro__text{
+  max-width: 720px;
+  margin-top: 42px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.63;
+  min-width: 288px;}
+
+  .photo-grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    min-width: 288px;
+    padding-bottom: 92px;
+  }
+
+  .photo-grid__picture{
+    width: 100%;
+  }
