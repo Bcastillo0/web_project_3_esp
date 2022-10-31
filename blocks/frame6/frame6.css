@@ -1,0 +1,8 @@
+.frame6{
+  grid-area: frame6;
+  background: #0278fe;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

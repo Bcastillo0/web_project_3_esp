@@ -1,0 +1,9 @@
+.cover__button{
+  width: 198px;
+  height: 48px;
+  z-index: 1;
+  transition: background-color 0.3s ease;
+}
+.cover__button:hover {
+  background-color: #0063d2;
+}

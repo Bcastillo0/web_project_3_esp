@@ -1,0 +1,18 @@
+.place__container{
+  grid-area: place__container;
+  padding-top: 48px;
+  max-width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .place__container {
+  padding-top: 46px;
+  max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__container {
+    margin: 0;
+    padding-bottom: 7px;
+  }
+}
