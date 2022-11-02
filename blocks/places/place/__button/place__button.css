@@ -5,9 +5,10 @@
   z-index: 1;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 410px) {
   .place__button {
     width: 288px;
     margin-top: 7px;
   }
 }
+
