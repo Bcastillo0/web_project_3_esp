@@ -33,7 +33,13 @@
 @import url(../blocks/places/place/__website/place__website.css);
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
+
 body{
   background-color: #2A2C2F;
   margin: 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
 }

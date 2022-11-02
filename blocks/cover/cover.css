@@ -1,9 +1,11 @@
 .cover{
-  padding-bottom: 92px;
+  margin-bottom: 92px;
 }
 
+
 @media screen and (max-width: 320px) {
-  .cover{
-    padding-bottom: 64px;
+  .cover {
+    margin-top: 48px;
+    margin-bottom: 64px;
   }
 }
