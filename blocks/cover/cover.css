@@ -1,7 +1,7 @@
 .cover{
   margin-bottom: 92px;
+  margin-top: 92px
 }
-
 
 @media screen and (max-width: 320px) {
   .cover {
