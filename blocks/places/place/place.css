@@ -8,8 +8,6 @@
     "place__image place__container"
     "frame6 place__container"
     ". place__container";
-
-  margin-bottom: 80px;
 }
 
 
@@ -21,8 +19,6 @@
       "place__image"
       "place__container"
       "frame6";
-
-    margin-bottom: 16px;
   }
 }
 
