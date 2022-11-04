@@ -1,17 +1,9 @@
 .place__container{
   grid-area: place__container;
-  padding-top: 48px;
   max-width: 100%;
 }
 @media screen and (max-width: 768px) {
   .place__container {
-  padding-top: 23px;
   max-width: 100%;
-  }
-}
-
-@media screen and (max-width: 677px) {
-  .place__container {
-    padding-top: 0;
   }
 }
